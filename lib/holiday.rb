@@ -74,7 +74,7 @@ def all_supplies_in_holidays(holiday_hash)
         new_holiday_array << x.capitalize
       end
       holiday_name_string = new_holiday_array.join(sep=" ")
-      puts "#{holiday_name_string}: #{supplies_array.join(sep=", ")}"
+      puts "  #{holiday_name_string}: #{supplies_array.join(sep=", ")}"
     end
   end
 
